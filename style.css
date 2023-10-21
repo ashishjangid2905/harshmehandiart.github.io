@@ -151,7 +151,7 @@ section {
 
 .intro_sec::before {
     content: '';
-    background: url('/Image/art-5243374_1920.jpg') no-repeat no-repeat center/cover;
+    background: url('Image/art-5243374_1920.jpg') no-repeat no-repeat center/cover;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -498,7 +498,7 @@ footer .copyright p{
     
     .intro_sec::before {
         content: '';
-        background: url('/Image/art-5243374_1920.jpg') no-repeat no-repeat center/cover;
+        background: url('Image/art-5243374_1920.jpg') no-repeat no-repeat center/cover;
         position: absolute;
         width: 100%;
         height: 100%;
