@@ -1,0 +1,264 @@
+/* css for the about page */
+
+.about_sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #f1ecec;
+    padding: 3em 0em 5em;
+}
+
+.about_sec .about_head{
+    display: flex;
+    width: 100%;
+    background-color: #ddcb0e;
+    margin: 2em 0em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 5em;
+}
+
+.about_head h3{
+    margin: 0em;
+    font-size: 3em;
+    color: #ffffff;
+}
+
+.about_sec .about_dtl{
+    display: inline-block;
+    flex-direction: column;
+    width: 80%;
+}
+
+.about_sec .about_dtl h4{
+    font-family: 'Dancing Script';
+    font-size: 3em;
+    margin: 1em 0em;
+}
+
+.about_sec .about_dtl p{
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.about_sec .about_dtl img{
+    display: inherit;
+    float: right;
+    margin: 2em 2em 2em 5em;
+    border-radius: 1em;
+    width: 350px;
+    box-shadow: -8px 8px 10px #846c6c8a;
+}
+
+
+/* css for the category page */
+
+._main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 5em;
+}
+
+._main .cat_sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+._main .cat_sec .sec_bg{
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 4em;
+    background-color: #ddcb0e;
+    margin: 2em 0em;
+}
+
+._main .cat_sec .sec_bg .title1{
+    font-size: 2em;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+._main .cat_sec .sec_item{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0em auto;
+}
+
+._main .cat_sec .sec_item .inner_cot{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.sec_item .inner_cot .cat_img{
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    width: 25em;
+}
+
+.sec_item .inner_cot img{
+    border-radius: 0.5em;
+    width: 25em;
+}
+
+/* css for the gallery page */
+
+._main .gallery_sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 5em 0em;
+}
+
+._main .gallery_sec .sec_item{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0em auto;
+}
+
+._main .gallery_sec .sec_item .inner_cot{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.gallery_sec .sec_item .inner_cot .gal_img{
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    width: 15em;
+}
+
+.gallery_sec .sec_item .inner_cot img{
+    border-radius: 0.5em;
+    width: 15em;
+}
+
+.sec_item .inner_cot img{
+    border-radius: 0.5em;
+    width: 15em;
+}
+
+@media screen and (max-width: 1200px) {
+    .about_head h3{
+        margin: 0em;
+        font-size: 1.5em;
+        color: #ffffff;
+    }
+
+    .about_sec .about_dtl h4{
+        font-family: 'Dancing Script';
+        font-size: 1.5em;
+        margin: 1em 0em;
+        text-align: center;
+    }
+
+    .about_sec .about_dtl img{
+        display: inherit;
+        float: right;
+        margin: 2em;
+        border-radius: 1em;
+        width: 225px;
+        box-shadow: -8px 8px 10px #846c6c8a;
+    }
+
+    .about_sec .about_dtl p{
+        text-align: justify;
+        font-size: 1.2em;
+    }
+
+    /* media query css category section */
+
+    ._main .cat_sec .sec_bg .title1{
+        font-size: 1.5em;
+        font-weight: 600;
+        color: #ffffff;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    
+    ._main .cat_sec .sec_item{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0em auto;
+    }
+    
+    ._main .cat_sec .sec_item .inner_cot{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 80%;
+    }
+    
+    .sec_item .inner_cot .cat_img{
+        display: inherit;
+        align-items: center;
+        justify-content: center;
+        width: 15em;
+    }
+    
+    .sec_item .inner_cot img{
+        border-radius: 0.5em;
+        width: 15em;
+    }
+
+    /* media query css gallery section */
+    
+    .gallery_sec .sec_item .inner_cot .gal_img{
+        display: inherit;
+        align-items: center;
+        justify-content: center;
+        width: 7em;
+    }
+    
+    .gallery_sec .sec_item .inner_cot img{
+        border-radius: 0.5em;
+        width: 7em;
+    }
+    
+    .gallery_sec .sec_item .inner_cot img{
+        border-radius: 0.5em;
+        width: 7em;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .about_sec .about_dtl img{
+        display: inherit;
+        align-items:center;
+        justify-content: center;
+        margin: 0em;
+        border-radius: 1em;
+        width: 225px;
+        box-shadow: -8px 8px 10px #846c6c8a;
+    }
+}
