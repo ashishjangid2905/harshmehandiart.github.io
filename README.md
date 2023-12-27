@@ -1,5 +1,7 @@
 # harshmehandiart.github.io
-Author: Ashish Jangid
-<br>
-Copyrights: Harsh Mehndi <br>
-Designed by: Ashish Jangid
+
+Copyright: Harsh Sharma (Harsh Mehndi) <br>
+Author: Ashish Jangid <br>
+Designed By: Ashish Jangid <br>
+
+<i>----Thank You----</i>
