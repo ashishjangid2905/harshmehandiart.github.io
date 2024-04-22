@@ -171,7 +171,9 @@ section {
 .intro_sec p{
     font-size: 2em;
     font-family: 'Dancing Script';
-    color: #6f3a05;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #a85b0e;
     margin: 0.5em 0em;
     text-align: center;
 }
@@ -181,7 +183,7 @@ section {
     height: 2em;
     border: none;
     border-radius: 10px;
-    background-color: #c70404;
+    background-color: #04c762;
     margin: 1em 0em 0em;
 }
 

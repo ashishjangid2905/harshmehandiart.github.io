@@ -91,6 +91,20 @@
     box-sizing: border-box;
 }
 
+.cat_details{
+    margin: 1em 2em;
+    padding: 0em 2em;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.title2{
+    font-size: 3em;
+    margin-top: 0;
+    margin-bottom: 1em;
+    color: #4e4343;
+}
+
 ._main .cat_sec .sec_item{
     display: flex;
     flex-wrap: wrap;
