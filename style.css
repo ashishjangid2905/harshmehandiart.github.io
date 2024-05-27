@@ -38,7 +38,8 @@ header .navbar {
 }
 
 .navbar .logo img {
-    width: 13em;
+    width: 18em;
+    border-radius: 10px;
 
 }
 
@@ -86,7 +87,7 @@ header .navbar {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 6em;
+    /* width: 6em; */
     height: 4em;
 }
 
@@ -94,8 +95,9 @@ header .navbar {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 6em;
+    /* width: 6em; */
     height: 2em;
+    font-size: 1.3em;
 }
 
 
@@ -179,18 +181,30 @@ section {
 }
 
 .intro_sec button{
-    width: 10em;
-    height: 2em;
+    width: 15em;
+    height: 3em;
     border: none;
-    border-radius: 10px;
+    border-radius: 30px;
     background-color: #04c762;
     margin: 1em 0em 0em;
 }
 
+.intro_sec button:hover{
+    background-color: #fff;
+    color: #04c762;
+}
+
 .intro_sec button a{
     text-decoration: none;
-    font-size: 1em;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 1.2em;
     color: #ffffff;
+}
+
+.intro_sec button a:hover{
+    background-color: #fff;
+    color: #04c762;
 }
 
 .container .intro_sec2{
@@ -283,6 +297,11 @@ footer .footer_sec .footer_item{
     width: 25%;
     align-items: center;
     justify-content: center;
+
+    a>img{
+        width: 40px;
+        vertical-align: middle;
+    }
 }
 
 footer .footer_sec h4{
@@ -297,6 +316,11 @@ footer .footer_sec p{
     margin: 1em 0em 0em;
     width: 100%;
     color: #6f3a05;
+
+    img{
+        vertical-align: middle;
+        width: 30px;
+    }
 }
 
 footer .footer_sec .quick_link{
@@ -374,6 +398,7 @@ footer .copyright p{
 @media screen and (max-width: 1000px) {
     .navbar .logo img {
         width: 10em;
+        border-radius: 5px;
     
     }
     .menu_items a{
@@ -391,7 +416,8 @@ footer .copyright p{
 @media screen and (max-width: 800px) {
 
     .navbar .logo img {
-        width: 7em;
+        width: 10em;
+        border-radius: 5px;
     
     }
     .nav_menu {
@@ -536,6 +562,7 @@ footer .copyright p{
     
     .intro_sec button a{
         text-decoration: none;
+        padding: 1em;
         font-size: 1em;
         color: #ffffff;
     }

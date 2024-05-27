@@ -30,7 +30,10 @@
 .about_sec .about_dtl{
     display: inline-block;
     flex-direction: column;
-    width: 80%;
+    position: relative;
+    padding: 2em 4em;
+    width: 100%;
+    background-color: #ddcb0e;
 }
 
 .about_sec .about_dtl h4{
@@ -49,7 +52,7 @@
     float: right;
     margin: 2em 2em 2em 5em;
     border-radius: 1em;
-    width: 350px;
+    width: 450px;
     box-shadow: -8px 8px 10px #846c6c8a;
 }
 
@@ -165,12 +168,12 @@
     display: inherit;
     align-items: center;
     justify-content: center;
-    width: 15em;
+    width: 25em;
 }
 
 .gallery_sec .sec_item .inner_cot img{
     border-radius: 0.5em;
-    width: 15em;
+    width: 25em;
 }
 
 .sec_item .inner_cot img{
@@ -251,17 +254,17 @@
         display: inherit;
         align-items: center;
         justify-content: center;
-        width: 7em;
+        width: 15em;
     }
     
     .gallery_sec .sec_item .inner_cot img{
         border-radius: 0.5em;
-        width: 7em;
+        width: 15em;
     }
     
     .gallery_sec .sec_item .inner_cot img{
         border-radius: 0.5em;
-        width: 7em;
+        width: 15em;
     }
 }
 
