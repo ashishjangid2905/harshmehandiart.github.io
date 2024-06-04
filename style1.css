@@ -21,7 +21,7 @@
     height: 5em;
 }
 
-.about_head h3{
+.about_head h1{
     margin: 0em;
     font-size: 3em;
     color: #ffffff;
@@ -36,7 +36,7 @@
     background-color: #ddcb0e;
 }
 
-.about_sec .about_dtl h4{
+.about_sec .about_dtl h2{
     font-family: 'Dancing Script';
     font-size: 3em;
     margin: 1em 0em;
@@ -182,13 +182,13 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .about_head h3{
+    .about_head h1{
         margin: 0em;
         font-size: 1.5em;
         color: #ffffff;
     }
 
-    .about_sec .about_dtl h4{
+    .about_sec .about_dtl h2{
         font-family: 'Dancing Script';
         font-size: 1.5em;
         margin: 1em 0em;
